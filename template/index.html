@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="h-full bg-gray-200">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Search UI</title>
+  <link rel="stylesheet" href="styles/output.css" />
+</head>
+<body class="h-full bg-gray-200 flex flex-col items-center justify-center">
+
+  <div class="w-full max-w-4xl p-8 bg-gray-700 bg-opacity-90 rounded-lg shadow-lg text-gray-300 font-mono">
+    <div class="relative mb-6">
+      <input
+        type="search"
+        placeholder="Pesquisar..."
+        class="w-full bg-transparent border-b border-yellow-300 focus:outline-none focus:border-yellow-400 pb-1 text-xl"
+      />
+      <svg xmlns="http://www.w3.org/2000/svg" class="absolute right-0 top-1/2 transform -translate-y-1/2 mr-1 text-red-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="24" height="24" stroke-width="2">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-4.35-4.35m0 0A7.5 7.5 0 1110.5 3a7.5 7.5 0 016.15 13.65z" />
+      </svg>
+      <div class="absolute bottom-0 left-0 w-full border-b border-yellow-300"></div>
+    </div>
+
+    <div id="results" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"></div>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+</html>
+
