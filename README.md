@@ -44,7 +44,8 @@ rodar a aplicação:
 
 # Codificação comsumo (html)
 -  um codigo sem padronização apenas consumo da api.
-- acessar aplicar web...
+- para acessar a aplicação web, dentro da pasta template ininie o servidor http
+-  `npx http-server`
 - http://127.0.0.1:8080
 
 
